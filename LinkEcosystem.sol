@@ -1,17 +1,17 @@
 Configure your Node.js Applications
 ===================================
-[![npm package](https://img.shields.io/npm/v/config)](https://www.npmjs.com/package/config)
-[![Downloads](https://img.shields.io/npm/dt/config)](https://www.npmjs.com/package/config)
-[![Issues](https://img.shields.io/github/issues/node-config/node-config)](https://github.com/node-config/node-config/issues)
-[Release Notes](https://github.com/node-config/node-config/releases)
+npm package](https://img.shields.io/npm/v/config)](https://www.npmjs.com/package/config)
+Downloads](https://img.shields.io/npm/dt/config)](https://www.npmjs.com/package/config)
+Issues](https://img.shields.io/github/issues/node-config/node-config)](https://github.com/node-config/node-config/issues)
+Release Notes](https://github.com/node-config/node-config/releases)
 Introduction
 ------------
 Node-config organizes hierarchical configurations for your app deployments.
 It lets you define a set of default parameters,
 and extend them for different deployment environments (development, qa,
 staging, production, etc.).
-Configurations are stored in [configuration files](https://github.com/node-config/node-config/wiki/Configuration-Files) within your application, and can be overridden and extended by [environment variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables),
- [command line parameters](https://github.com/node-config/node-config/wiki/Command-Line-Overrides), or [external sources](https://github.com/lorenwest/node-config/wiki/Configuring-from-an-External-Source).
+Configurations are stored in [configuration files](https://github.com/node-config/node-config/wiki/Configuration-Files) within your application, and can be overridden and extended by environment variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables),
+ command line parameters](https://github.com/node-config/node-config/wiki/Command-Line-Overrides), or external sources](https://github.com/lorenwest/node-config/wiki/Configuring-from-an-External-Source).
 This gives your application a consistent configuration interface shared among a
 [growing list of npm modules](https://www.npmjs.org/browse/depended/config) also using node-config.
 Project Guidelines
@@ -64,7 +64,6 @@ $ vi config/default.json
 }
 ```
 **Use configs in your code:**
-
 ```js
 const config = require('config');
 //...
